@@ -4,9 +4,9 @@ import styled from 'styled-components';
 export default function Header() {
     return (
         <HeaderContainer>
-            Lourenço's Factory
+            Cookie da gema
             <Subtitle>
-                O cookie cremoso da gema para todo carioca
+                adoçando a vida de todo carioca
             </Subtitle>
         </HeaderContainer>
     );
@@ -21,8 +21,8 @@ const HeaderContainer = styled.header`
     right: 0;
     padding: 25px;
     text-align: center;
-    background-image: linear-gradient(-45deg, #3C1742, #C42021);
-    color: #F3FFB9;
+    background-image: linear-gradient(-45deg, #FFC857, #DB3A34);
+    color: #FFF;
 `;
 
 const Subtitle = styled.h1`

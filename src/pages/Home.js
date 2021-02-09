@@ -5,16 +5,20 @@ export default function Home() {
     return (
         <HomeContainer>
             <Types>
-                Cookies Recheados
+                <TypesTitle>Cookies Recheados</TypesTitle>
+                'imagem para seleção aqui' 
             </Types>
             <Types>
-                Cookie Chips
+                <TypesTitle>Cookie Chips</TypesTitle>
+                'imagem para seleção aqui' 
             </Types>
             <Types>
-                Cookie Caixa
+                <TypesTitle>Cookie Caixa</TypesTitle>
+                'imagem para seleção aqui' 
             </Types>
             <Types>
-                Palha Italiana
+                <TypesTitle>Palha Italiana</TypesTitle>
+                'imagem para seleção aqui' 
             </Types>
         </HomeContainer>
     );
@@ -24,10 +28,14 @@ const HomeContainer = styled.div`
     width: 100%;
 `;
 
-const Types = styled.h2`
+const Types = styled.div`
+
+`;
+
+const TypesTitle = styled.h2`
     font-size: 22px;
     font-family: 'Righteous', cursive;
     margin: 10px;
-    color: #C42021;
+    color: #084C61;
     padding: 20px;
 `;

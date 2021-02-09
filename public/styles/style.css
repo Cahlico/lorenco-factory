@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     padding-top: 150px;
-    background-image: linear-gradient(-45deg, #F3FFB9, #fffdfc );
+    background-image: linear-gradient(-45deg, #ffe3ab, #dbb1af );
     background-repeat: no-repeat, repeat;
     min-height: 100vh;
 }
