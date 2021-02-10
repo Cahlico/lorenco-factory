@@ -36,6 +36,6 @@ const TypesTitle = styled.h2`
     font-size: 22px;
     font-family: 'Righteous', cursive;
     margin: 10px;
-    color: #084C61;
+    color: #063B4B;
     padding: 20px;
 `;
